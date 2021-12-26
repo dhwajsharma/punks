@@ -1,0 +1,101 @@
+.main {
+  max-height: 50vh;
+  color: #fff;
+}
+
+.main__mainContent {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.main__punkHighlight {
+  display: flex;
+  flex: 0.2;
+  align-items: center;
+  justify-self: center;
+}
+
+.main__punkContainer {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+}
+
+.main__selectedPunk {
+  object-fit: contain;
+  max-width: min(30vw, 40vh);
+  max-height: 30vw;
+}
+
+.main__punkDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.75;
+}
+
+.main__title {
+  font-size: 96px;
+  font-weight: 800;
+}
+
+.main__itemNumber {
+  color: #a1a5b0;
+  font-size: 72px;
+  align-self: center;
+}
+
+.main__owner {
+  display: flex;
+  margin: 10px 0;
+  height: 50px;
+}
+
+.main__owner > div {
+  margin: 0 5px;
+}
+
+.main__ownerImageContainer {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-radius: 50px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.main__ownerImageContainer > img {
+  height: 100%;
+  width: 100%;
+}
+
+.main__ownerDetails {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.main__ownerNameAndHandle {
+  flex: 1;
+}
+
+.main__ownerHandle {
+  color: #00ebfe;
+}
+
+.main__ownerLink {
+  padding: 12px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #fff;
+  margin: 0px 0 0 10px;
+  cursor: pointer;
+}
+
+.main__ownerLink > img {
+  height: 100%;
+  width: 100%;
+}
